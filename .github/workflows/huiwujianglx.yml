@@ -2,8 +2,8 @@ name: huiwujianglx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 4/6 * * *'
-jobs:  # 1254
+    - cron: '30 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,23 +11,12 @@ jobs:  # 1254
       - uses: actions/checkout@v4
       - name: huiwujianglx
         env:
-          fp64560: ${{ secrets.fp64560 }}
+          iw33: ${{ secrets.iw33 }}
         run: |
-          echo $fp64560 | jq -r .mf2 | /bin/bash
-          echo $puni340 | jq -r .nnv795 | /bin/bash
-          echo $ve4 | jq -r .g41105 | /bin/bash
-          echo $rgxcr51 | jq -r .sjx90 | /bin/bash
-          echo $vred79056 | jq -r .p0550 | /bin/bash
-          echo $x0306 | jq -r .e122 | /bin/bash
-          echo $ci19450 | jq -r .oiuyc6 | /bin/bash
-          echo $hoda1 | jq -r .kei72606 | /bin/bash
-          echo $psng41 | jq -r .gbg4461 | /bin/bash
-          echo $eozek1 | jq -r .fdag1 | /bin/bash
-          echo $ofakd700 | jq -r .znjgf11386 | /bin/bash
-          echo $wkqp77 | jq -r .q7 | /bin/bash
-          echo $flzj784 | jq -r .nl55 | /bin/bash
-          echo $aor054 | jq -r .hqw84 | /bin/bash
-          echo $u370 | jq -r .q37186 | /bin/bash
-          echo $ls351 | jq -r .kudmh215 | /bin/bash
-          echo $y3 | jq -r .deqri3 | /bin/bash
+          echo $iw33 | jq -r .lvr8 | /bin/bash
+          echo $ucg43548 | jq -r .eg88 | /bin/bash
+          echo $v5 | jq -r .li7 | /bin/bash
+          echo $bf87289 | jq -r .atm0 | /bin/bash
+          echo $bz511 | jq -r .kx7 | /bin/bash
+          echo $dwee26 | jq -r .vlmd92409 | /bin/bash
 
